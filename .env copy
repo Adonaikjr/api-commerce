@@ -1,0 +1,10 @@
+NODE_ENV=dev
+# DATABASE_URL="postgresql://docker:docker@localhost:5432/apisolid?schema=public"
+# DATABASE_URL="mongodb+srv://adonaikjr:EUIJmBPZoQ82nu8D@cluster0.rdla9mi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+# DATABASE_URL="mongodb+srv://adonaikjr:oCk5lyNbwSkRGYTo@my-mongodb-atlas.o0ftwaf.mongodb.net/?retryWrites=true&w=majority&appName=my-mongodb-atlas"
+DATABASE_URL="mongodb+srv://adonaikjr:oCk5lyNbwSkRGYTo@my-mongodb-atlas.o0ftwaf.mongodb.net/my-mongodb-atlas"
+
+# mongodb+srv://adonaikjr:<password>@my-mongodb-atlas.o0ftwaf.mongodb.net/
+# adonaikjr
+# oCk5lyNbwSkRGYTo
