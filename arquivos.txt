@@ -1,0 +1,7 @@
+docker compose up -d - inicia o container
+docker ps = vizualiza os container ativos
+docker compose stop - pausa o container
+
+vitest
+npm i vitest vite-tsconfig-paths -D
+vite-ts-config-paths para entendenr as path no ts.config
