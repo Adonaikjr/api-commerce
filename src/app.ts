@@ -2,10 +2,14 @@ import fastify from 'fastify'
 import { ZodError } from 'zod'
 import { appRoutes } from './http/routes'
 import cron from 'node-cron'
-
+import fastifyJwt from '@fastify/jwt'
+import { env } from '@/env'
 export const app = fastify()
-
 // app.post('/users', register)
+app.register(fastifyJwt, {
+  secret: env.JWT_SECRET,
+})
+
 app.register(appRoutes)
 // cron.schedule('*/1 * * * *', async () => {
 //   try {
