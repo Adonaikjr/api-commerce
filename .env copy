@@ -6,5 +6,3 @@ NODE_ENV=dev
 DATABASE_URL="mongodb+srv://adonaikjr:oCk5lyNbwSkRGYTo@my-mongodb-atlas.o0ftwaf.mongodb.net/my-mongodb-atlas"
 
 # mongodb+srv://adonaikjr:<password>@my-mongodb-atlas.o0ftwaf.mongodb.net/
-# adonaikjr
-# oCk5lyNbwSkRGYTo
